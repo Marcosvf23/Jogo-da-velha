@@ -1,4 +1,4 @@
-const cellElementes = document.querySelectorAll("[data-cell]");
+const cellElements = document.querySelectorAll("[data-cell]");
 const board = document.querySelector("[data-board]");
 const winningMessageTextElement = document.querySelector(
   "[data-winning-message-text]"
@@ -22,7 +22,7 @@ const winningCombinations = [
 const startGame = () => {
   isCircleTurn = false;
 
-  for (const cell of cellElementes) {
+  for (const cell of cellElements) {
     cell.classList.remove("circle");
     cell.classList.remove("x");
     cell.removeEventListener("click", handleClick);
@@ -48,13 +48,13 @@ const endGame = (isDraw) => {
 const checkForWin = (curretPlayer) => {
   return winningCombinations.some((combination) => {
     return combination.every((index) => {
-      return cellElementes[index].classList.contains(curretPlayer);
+      return cellElements[index].classList.contains(curretPlayer);
     });
   });
 };
 
 const checkForDraw = () => {
-  return [...cellElementes].every((cell) => {
+  return [...cellElements].every((cell) => {
     return cell.classList.contains("x") || cell.classList.contains("circle");
   });
 };
