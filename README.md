@@ -4,18 +4,10 @@
 
 <p align="center">
   <img alt="Licença" src="https://img.shields.io/badge/licença-MIT-green.svg">
-  <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/[SEU-USUARIO-GITHUB]/[NOME-DO-SEU-REPOSITORIO]?color=green">
 </p>
 
 ---
 
-### 🕹️ Demonstração Animada
-
-<p align="center">
-  <img src="[URL_DO_SEU_GIF_AQUI]" alt="Demonstração do Jogo da Velha" width="600"/>
-</p>
-
----
 
 ### 📝 Descrição
 
@@ -56,7 +48,7 @@ Como é um projeto puramente front-end, os passos são bem simples:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/Marcosvf23/Jogo-da-velha.git
+    git clone [https://github.com/](https://github.com/)[Marcosvf23]/[Jogo-da-velha].git
     ```
 
 2.  **Navegue até o diretório:**
@@ -74,7 +66,7 @@ E está pronto para jogar!
 Desenvolvido com muito carinho por **[Marcos Fernandes]**.
 
 -   **GitHub:** [@Marcosvf23](https://github.com/[Marcosvf23])
--   **LinkedIn:** [www.linkedin.com/in/marcosvf23]
+-   **LinkedIn:** [/in/Marcosvf23](www.linkedin.com/in/marcosvf23])
 
 ---
 
